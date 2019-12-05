@@ -1,5 +1,5 @@
 const fs = require("fs");  // fs pour lire les fichiers .txt .
-let interaction = require("./Bot/QandA.json");  // depuis la biblioteque originel
+let interaction = require("./QandA.json");  // depuis la biblioteque originel
 
 let text = "Comment avoir une bourse?";
 
