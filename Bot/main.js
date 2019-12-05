@@ -1,27 +1,33 @@
 const fs = require("fs");  // fs pour lire les fichiers .txt .
-var interaction = require("./QandA.json");
+let interaction = require("./Bot/QandA.json");  // depuis la biblioteque originel
 
-let txt = "Comment avoir une bourse?";
+let text = "Comment avoir une bourse?";
 
-function Bot () {
+
+function Bot() { // object bot
   let self = this;
 
-  self.react = function (txt) {
-    for ( let type in interaction ) {
-      let respond = 0
-      for ( let keyArray in type.keyword ) {
-        for ( let k in keyArray ) {
-          if ( txt.includes(k) ) {
-            respond += 1;
+    self.react = function (txt) { // fonction de reaction du bot en fonction des messages qui lui sont envoyé.
+
+      for ( let type in interaction ) {  // Chaque reponse possible
+        console.log(interaction);   // interaction corespond bien a l'object qu'il faut
+        console.log(type);          // mais le type ne corresponds pas a la valeur, objet keword/password mais simplement au nom clef.
+
+        let keyword = 0  // variable stockant le nombre de mot clef
+        for ( let keyArray in type.keyword ) {  // la liste des mots clef
+          for ( let k in keyArray ) {  // les mots clefs dans chaque liste de synnonymme
+            if ( txt.includes(k) ) {  // si le messae contient k
+              keyword += 1; // On ajoute 1 a la quantité de mot clef
+              break;  // et on quitte la boucle  pour ajouter de synonnyme.
+            }
           }
         }
+        if ( keyword == type.keyword.length ) return type.path;  // on retourne le texte stocké dans le type
       }
-      if ( respond == keyArray.length ) return type.path;
+      return "Désolé je n'ai pas compris"   
     }
-    return "Déso pas compris"
-  }
 }
 
-bot = new Bot;
+let bot = new Bot() ;
 
 bot.react(text);
