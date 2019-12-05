@@ -1,10 +1,9 @@
 {
-
   "bourse"  : {
     "keyword"  : [
-      ["bourse", "aide", "manque d'argent"],
-      ["ou", "comment avoir"]
+         ["bourse", "aide", "manque d'argent"],
+         ["ou", "comment avoir"]
     ],
-    "path" :  ".\Bot\Texts\Bourse.txt"
+    "path"     :  "./Bot/Texts/Bourse.txt"
   }
 }
