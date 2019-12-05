@@ -1,0 +1,10 @@
+{
+
+  "bourse"  : {
+    "keyword"  : [
+      ["bourse", "aide", "manque d'argent"],
+      ["ou", "comment avoir"]
+    ],
+    "path" :  ".\Bot\Texts\Bourse.txt"
+  }
+}
