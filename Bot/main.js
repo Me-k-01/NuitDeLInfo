@@ -8,7 +8,7 @@ function Bot() { // object bot
   let self = this;
 
     self.react = function (txt) { // fonction de reaction du bot en fonction des messages qui lui sont envoyé.
-
+      txt = txt.toLowerCase();  
       for ( let j in interaction ) {  // Chaque reponse possible
         let type = interaction[j];
         let keyword = 0  // variable stockant le nombre de mot clef
