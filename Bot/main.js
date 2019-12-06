@@ -1,5 +1,5 @@
 const fs = require("fs");  // fs pour lire les fichiers .txt .
-let interaction = require("./Bot/QandA.json");
+let interaction = require("./QandA.json");
 
 function Bot() { // object bot
   let self = this;
@@ -24,7 +24,3 @@ function Bot() { // object bot
       return "Désolé je n'ai pas compris"
     }
 }
-
-let bot = new Bot() ;
-
-console.log(bot.react(text));
