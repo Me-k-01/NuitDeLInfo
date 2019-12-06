@@ -1,8 +1,8 @@
 {
   "DateBourse"  : {
     "keyword"  : [
-         ["bourse", "aide", "manque d'argent", "versements"],
-         ["Quand","date"]
+         ["bourse", "aide", "manque d'argent", "manque dargent", "versements", "verser"],
+         ["quand","date"]
     ],
     "path"     :  "./Texts/DateBourse.txt"
   }  
