@@ -5,5 +5,82 @@
          ["quand","date"]
     ],
     "path"     :  "./Texts/DateBourse.txt"
-  }  
+  },
+
+
+  "CombienBourse" : {
+    "keyword" : [
+      ["échellon", "echellon", "bourse", "aide finan","versement", "crous"],
+      ["calculer", "qu’elle est", "quelle", "combien"]
+    ],
+    "path"       :  "./Texts/CombienBourse.txt"
+  },
+
+
+  "CommentBourse" : {
+    "keyword" : [
+      ["bourse", "aide", "versement"],
+      ["comment avoir", "qu'elle demarche", "quelle demarche" ]
+    ],
+    "path"       :  "./Texts/CombienBourse.txt"
+  },
+
+
+  "ModifDSE" : {
+    "keyword" : [
+      ["bourse", "aide", "versement"],
+      ["comment modifier", "peut-on modifier", "peut on modifier",
+        "comment changer", "peut-on changer", "peut on changer"]
+    ],
+    "path"    :  "./Texts/ModifDSE.txt"
+  },
+
+  "AideLogement" : {
+    "keyword" : [
+      ["caf", "aide pour payer le loyer", "aide loge", "aide au loge", "apl"],
+      ["simulateur", "puis-je percevoir", "puis je percevoir", "est ce que je peux avoir", "est-ce que je peux avoir" ]
+    ],
+    "path"    :  "./Texts/AideLogement.txt"
+  },
+
+  "DemandeCAF" : {
+    "keyword" : [
+      ["caf", "aide pour payer le loyer", "apl", "aide loge", "aide au loge"],
+      ["comment", "puis-je", "puis je", "est-ce que je peux", "est ce que je peux" ]
+    ],
+    "path"    :  "./Texts/DemandeCAF.txt"
+  },
+
+  "InitCrous" : {
+    "keyword" : [
+      ["def", "déf", "c'est quoi", "keske", "qu’est ce", "qu’est-ce", "kukusai", "kécecé", "c’est quoi", "kesako"],
+      ["crous ", "cnous ", "crou ", " crous"]
+    ],
+    "path"    :  "./Texts/InitCrous.txt"
+  },
+
+  "AideSecu" : {
+    "keyword" : [
+      ["remboursement", "aide", "prise en charge"],
+      ["medic", "médic" ,"vaccin" ]
+    ],
+    "path"    :  "./Texts/AideSecu.txt"
+  },
+
+  "Contra" : {
+    "keyword" : [
+      ["remboursement", "aide", "prise en charge"],
+      ["contraception", "préservatif", "preservatif", "pilule", "pillule", "capote", "stérilet", "sterilet"]
+    ],
+    "path"    :  "./Texts/Contra.txt"
+  },
+
+  "Secu" : {
+    "keyword" : [
+      ["sécu", "secu"],
+      ["def", "déf", "c'est quoi", "keske", "qu’est ce", "qu’est-ce", "kukusai", "kécecé", "c’est quoi", "kesako"]
+    ],
+    "path"    :  "./Texts/Secu.txt"
+  }
+
 }
