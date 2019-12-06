@@ -1,7 +1,26 @@
 <html>
   <head>
+      <title>bot</title>
   </head>
+
   <body>
+    <p id="User"></p>
+    <p id="Bot"></p>
+    <input id="entry">
+    <button type="button" onclick="button()">Submit</button>
+    <script  type="text/javascript" src="./Bot/toutEnUn.js">
+    </script>
+
+    <script>
+    function button () {
+      var txt = document.getElementById("entry").value ;
+      console.log(txt)
+      let bot = new Bot() ;
+      let response = bot.react(txt)
+      document.getElementById("User").innerHTML = txt;
+      document.getElementById("Bot").innerHTML = response;
+    }
+    </script>
 
   </body>
 </html>
