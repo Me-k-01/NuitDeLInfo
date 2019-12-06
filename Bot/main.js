@@ -1,9 +1,6 @@
 const fs = require("fs");  // fs pour lire les fichiers .txt .
 let interaction = require("./Bot/QandA.json");
 
-let text = "e avoir une bourse ?";
-
-
 function Bot() { // object bot
   let self = this;
 
