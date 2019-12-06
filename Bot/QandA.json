@@ -1,9 +1,9 @@
 {
-  "bourse"  : {
+  "DateBourse"  : {
     "keyword"  : [
-         ["bourse", "aide", "manque d'argent"],
-         ["ou", "comment avoir"]
+         ["bourse", "aide", "manque d'argent", "versements"],
+         ["Quand","date"]
     ],
-    "path"     :  "./Bot/Texts/Bourse.txt"
-  }
+    "path"     :  "./Texts/DateBourse.txt"
+  }  
 }
