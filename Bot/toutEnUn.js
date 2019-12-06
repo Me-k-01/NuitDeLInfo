@@ -100,10 +100,6 @@ let interaction = {
   }
 }
 
-
-let text = "puis-je avoir la bourse?";
-
-
 function Bot() { // object bot
   let self = this;
 
@@ -128,6 +124,5 @@ function Bot() { // object bot
     }
 }
 
-let b = new Bot() ;
+let bot = new Bot() ;
 
-console.log(b.react(text));
